@@ -4,7 +4,7 @@ services:
   app:
     image: node
     volumes:
-      - "./my-app:/mnt/my-app"
+      - ".:/mnt/my-app"
     working_dir: "/mnt/my-app"
     entrypoint: "/bin/bash -c"
     command:
