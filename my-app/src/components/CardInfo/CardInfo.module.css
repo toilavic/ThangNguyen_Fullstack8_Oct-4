@@ -1,0 +1,23 @@
+.container {
+    display: flex;          
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;     
+    height: 800px;
+    border-radius: 1rem;
+    border-color: #bdbdbd;
+}
+
+.content {
+    width: 300px;
+    margin: 5px;
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    padding: 2rem 0rem; 
+}
+
+div, li {
+    font-weight: bold;
+    padding: 0.3rem 0rem;
+}

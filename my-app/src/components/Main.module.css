@@ -1,0 +1,26 @@
+:root {
+    --background-color: #f9f9f9;
+    --text-small-16: 16px;
+    --text-medium-18: 18px;
+    --text-big-24: 24px; 
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--background-color);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem 2rem;
+    flex-wrap: wrap;
+    flex-grow: 1;
+
+    width: 80%;
+    margin: 5rem auto;
+}

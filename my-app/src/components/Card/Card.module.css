@@ -1,0 +1,52 @@
+.cardContainer {
+    border-radius: 1rem;
+    border-color: #bdbdbd;
+    flex: 1 0 31%;
+
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.05);
+    box-sizing: border-box;
+    transition: transform 280ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+
+.cardContainer:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 4px 16px rgba(0,0,0,0.1);
+}
+
+.cardContent {
+    margin: 2rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profilePhoto {
+    border-radius: 5rem;
+}
+
+.name {
+    font-size: var(--text-big-24);
+    font-weight: bold;
+}
+
+.nickname {
+    font-style: italic;
+    font-size: var(--text-small-16);
+}
+
+.website {
+    font-size: var(--text-small-16);
+}
+
+.seeDetails {
+    background-color: #2b09d9;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    color: white;
+    font-size: var(--text-small-16);
+    cursor: pointer;   
+}

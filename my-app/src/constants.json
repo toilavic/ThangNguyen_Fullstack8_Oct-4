@@ -1,0 +1,4 @@
+{
+    "baseAddress": "https://jsonplaceholder.typicode.com/users/",
+    "photoAddress": "https://eu.ui-avatars.com/api/"
+}
