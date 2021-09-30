@@ -1,6 +1,7 @@
 # React Typescript Assignment
 
-Pre-assignment for Full Stack Program
+Pre-assignment for Full Stack Program, preview
+### https://gallant-tesla-4aad65.netlify.app/
 
 # Requirements:
 Docker, docker-compose to run script
