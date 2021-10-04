@@ -3,6 +3,10 @@
 Pre-assignment for Full Stack Program, preview
 ### https://gallant-tesla-4aad65.netlify.app/
 
+# REST API:
+Istead of using Github API, I used Jsonplaceholder API (https://jsonplaceholder.typicode.com/users)
+to get the users data and display it in a meaningful way.
+
 # Requirements:
 Docker, docker-compose to run script
 
